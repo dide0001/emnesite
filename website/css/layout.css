@@ -1,0 +1,40 @@
+@media (width>=769px){
+    body{
+        max-width: 1512px;
+    }
+
+    .header{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background-color: lightgrey;
+    }
+
+    .nav-list{
+        display: flex;
+        list-style: none;
+        gap: 100px;
+        padding-right: 585px;
+    }
+
+    .section-grid_1_1_1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3rem;
+        padding-top: 7rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
+        padding-bottom: 10rem;
+    }
+
+    .flex-col{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+
+
+}
+
+

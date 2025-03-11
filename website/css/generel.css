@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 0;
+}
+
+.musikh2, .jinglesh2, .eventsh2{
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.musikicon, .nodeicon, .eventicon{
+    margin-left: 5rem;
+}
